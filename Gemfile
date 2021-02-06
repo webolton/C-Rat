@@ -3,9 +3,13 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+gemspec
+
 ruby '2.7.0'
 
+gem 'config'
 gem 'excon'
+gem 'rake'
 
 group :development, :test do
   gem 'bundle-audit'
