@@ -7,3 +7,6 @@
 
 # rspec failure tracking
 .rspec_status
+
+# Env variables
+.env

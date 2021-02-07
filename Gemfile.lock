@@ -19,6 +19,7 @@ GEM
       dry-validation (~> 1.0, >= 1.0.0)
     deep_merge (1.2.1)
     diff-lcs (1.4.4)
+    dotenv (2.7.6)
     dry-configurable (0.11.5)
       concurrent-ruby (~> 1.0)
       dry-core (~> 0.4, >= 0.4.7)
@@ -107,6 +108,7 @@ DEPENDENCIES
   CRat!
   bundle-audit
   config
+  dotenv
   excon
   pry
   rake

@@ -8,6 +8,7 @@ gemspec
 ruby '2.7.0'
 
 gem 'config'
+gem 'dotenv'
 gem 'excon'
 gem 'rake'
 
