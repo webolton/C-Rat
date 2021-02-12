@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative 'lib/CRat/version'
+require_relative 'lib/crat/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'CRat'
@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description   = ''
   spec.homepage      = 'https://github.com/webolton/C-Rat'
   spec.license       = 'MIT'
-  spec.required_ruby_version = Gem::Requirement.new('>= 2.7.0')
+  spec.required_ruby_version = Gem::Requirement.new('>= 2.7.2')
 
   spec.metadata['allowed_push_host'] = ''
 
