@@ -3,5 +3,5 @@
 require 'dotenv/load'
 
 module CRat
-  VERSION = ENV['CRAT_VERSION']
+  ENVIRONMENT = ENV['CRAT_ENV'] ||= 'development'
 end
