@@ -10,7 +10,13 @@ RSpec.describe CRat do
     end
   end
 
-  xit 'does something useful' do
-    expect(false).to eq(true)
+  describe '#config' do
+    it 'returns the correct AWS secret access key' do
+      expect(CRat.config.aws_secret_access_key).to eq('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+    end
+
+    it 'returns the correct AWS access_key_id ' do
+      expect(CRat.config.aws_access_key_id).to eq('XXXXXXXXXXXXXXXXXXXX')
+    end
   end
 end

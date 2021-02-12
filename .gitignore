@@ -10,3 +10,6 @@
 
 # Env variables
 .env
+
+# Settings
+/config/settings/environments/development.yml
