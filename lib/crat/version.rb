@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'dotenv/load'
+
 module CRat
-  VERSION = '0.1.0'
+  VERSION = ENV['VERSION']
 end
